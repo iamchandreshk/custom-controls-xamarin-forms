@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:CustomControl;assembly=CustomControl"
+             x:Class="CustomControl.PageHome">
+  <controls:MyStackLayout>
+    <controls:MyLabel Text="Hello"></controls:MyLabel>
+    <controls:MyEntry Text="Hello"></controls:MyEntry>
+    <controls:MyButton Text="Hello"></controls:MyButton>
+  </controls:MyStackLayout>
+</ContentPage>
